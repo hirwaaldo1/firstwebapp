@@ -1,0 +1,51 @@
+#img123{
+    width:100%;
+    height:100%;
+    position: relative;
+    border-radius:8% ;
+}
+.container-content{ 
+    z-index: -1;
+}
+.content-text{
+    position: absolute;
+    top: 40%; left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    visibility: hidden;
+    width: 100%;
+  
+}
+.container-content:hover img{
+   opacity: 0.4;
+}
+.container-content:hover > .content-text{
+    visibility: visible;
+}
+.morel__elvis{
+    font-family:cursive ;
+    font-size: 35px;
+    width: 100%;
+    
+}
+#faFingerprint{
+    position: absolute;
+    left: 35px;
+    font-size: 24px;
+    cursor: pointer;
+}
+#faFingerprint:active{
+    color:#0984e3;
+    
+}
+#faComment{
+    position: absolute;
+    right:35px;
+    font-size: 24px;
+    cursor: pointer;
+}
+#faComment:active{
+    color:#0984e3;
+    
+}

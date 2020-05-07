@@ -35,7 +35,7 @@ class App extends Component {
         <Route exact path="/Elvis/:id" component={elvis}></Route>
         <Route exact path="/profile/:id" component={self}></Route>
         <Route exact path="/edit/:id" component={edit}></Route>
-        <Redirect to="/404"/>
+        <Redirect to="/"/>
       </Switch>
     </Router>
       );
